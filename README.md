@@ -42,10 +42,9 @@ This option runs a quick, non-interactive showcase of all the methods, demonstra
 
 Code structure
 The script is organized into separate functions for each method, making it easy to understand and modify.
-. parity_encode, parity_check: Functions for parity.
-. checksum_16, checksum_verify: Functions for 16-bit checksum.
-. xor, crc_remainder, crc_transmit, crc_verify: Functions for CRC.
-. hamming_74_encode, hamming_74_decode: Functions for Hamming (7,4).
-. demo_all: A function to run a showcase of all features.
-. main: The main function that drives the interactive menu.
-
+- parity_encode, parity_check: Functions for parity.
+- checksum_16, checksum_verify: Functions for 16-bit checksum.
+- xor, crc_remainder, crc_transmit, crc_verify: Functions for CRC.
+- hamming_74_encode, hamming_74_decode: Functions for Hamming (7,4).
+- demo_all: A function to run a showcase of all features.
+- main: The main function that drives the interactive menu.
